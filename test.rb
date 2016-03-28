@@ -1,9 +1,6 @@
-#require 'colorizr'
-require_relative 'lib/colorizr'
-
-
+require 'colorizr'
 
 "aa".red
-"aa".blue
+"aa".colorizr(:blue)
 p String.colors
 String.sample_colors

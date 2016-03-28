@@ -1,0 +1,12 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+	Using metaprogramming for define method
+
+How long did you spend working on this project?
+	about 10 hours..most of time i spend for analyze or understadin colorize gem
+
+What was the most rewarding challenge you conquered?
+	I readed colorize(original) gem, and studied code to understand
+	It was really challenging for me, I understood all the code.
+
+Where do you still have room to grow?
+	Add background color and character method..like (bold, italic).
