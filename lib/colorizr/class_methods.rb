@@ -1,6 +1,8 @@
 module Colorizr
 	module ClassMethods
 
+
+
 		def color_codes 
 			{
 				black: 30,	red: 31,
@@ -13,6 +15,13 @@ module Colorizr
 
 		def colors
 			color_codes.keys
+		end
+
+		def sample_colors
+			print "Sample Colors"
+			colors.each do |color|	
+				print "This is " + "#{color}".colorizr(color).to_s				
+			end
 		end
 
 
